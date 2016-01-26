@@ -1,0 +1,18 @@
+{
+  "name": "@f/changed-keys",
+  "description": "Returns the list of keys that changed between two values",
+  "repository": "git://github.com/micro-js/changed-keys.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/is-array": "^1.1.1",
+    "@f/is-object": "^1.1.4"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
