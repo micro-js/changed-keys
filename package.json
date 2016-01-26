@@ -2,7 +2,7 @@
   "name": "@f/changed-keys",
   "description": "Returns the list of keys that changed between two values",
   "repository": "git://github.com/micro-js/changed-keys.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
